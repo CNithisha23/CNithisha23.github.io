@@ -1,3 +1,36 @@
+/* Research Publications Section */
+#publications {
+    margin-top: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#publications h2 {
+    color: #222;
+    font-size: 24px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+#publications h3 {
+    color: #444;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#publications ul {
+    padding-left: 20px;
+}
+
+#publications li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
