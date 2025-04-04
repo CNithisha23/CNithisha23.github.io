@@ -1,3 +1,26 @@
+.social-links {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.social-links h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #0077b5;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+
 /* Reset and Base Styles */
 * {
     margin: 0;
