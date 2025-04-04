@@ -1,3 +1,269 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Headings */
+h1 {
+    color: #222;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #555;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* Paragraphs and Lists */
+p, ul {
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+/* Research Publications Section */
+#publications {
+    margin-top: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#publications h2 {
+    color: #222;
+    font-size: 24px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+#publications h3 {
+    color: #444;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#publications ul {
+    padding-left: 20px;
+}
+
+#publications li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+
+/* Certifications Section */
+#certifications {
+    margin-top: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#certifications h2 {
+    color: #222;
+    font-size: 24px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+#certifications ul {
+    padding-left: 20px;
+}
+
+#certifications li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+
+/* Faculty Development Programs (FDPs) Section */
+#fdps {
+    margin-top: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#fdps h2 {
+    color: #222;
+    font-size: 24px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+#fdps ul {
+    padding-left: 20px;
+}
+
+#fdps li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+
+/* Internships Section */
+#internships {
+    margin-top: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#internships h2 {
+    color: #222;
+    font-size: 24px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+#internships ul {
+    padding-left: 20px;
+}
+
+#internships li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+
+/* Events Organized Section */
+#events-organized {
+    margin-top: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#events-organized h2 {
+    color: #222;
+    font-size: 24px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+#events-organized ul {
+    padding-left: 20px;
+}
+
+#events-organized li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+
+/* Activities Section */
+#activities {
+    margin-top: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#activities h2 {
+    color: #222;
+    font-size: 24px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+#activities ul {
+    padding-left: 20px;
+}
+
+#activities li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+/* Achievements Section */
+#achievements {
+    margin-top: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#achievements h2 {
+    color: #222;
+    font-size: 24px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+#achievements ul {
+    padding-left: 20px;
+}
+
+#achievements li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
 /* Research Publications Section */
 #publications {
     margin-top: 30px;
